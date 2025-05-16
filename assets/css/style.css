@@ -30,8 +30,25 @@ p {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+body, p, ul, li {
+  font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('assets/fonts/raleway-regular.woff2') format('woff2'),
+       url('assets/fonts/raleway-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .container {
-  max-width: 1000px;
+  max-width: 1160px;
   margin: 20px auto;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
